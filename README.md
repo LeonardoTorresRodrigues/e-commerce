@@ -1,10 +1,10 @@
-# Landing Page
+# E-Commerce
 
-Landing page para venda de headphone
+Página de vendas
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Landing Page**
+| :sparkles: Nome        | **E-Commerce**
 | :label: Tecnologias | React, TypeScript, HTML5
 | :rocket: URL         | :construction: Em construção :construction:
 | :fire: Desafio     | DevChallenge
