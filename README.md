@@ -20,3 +20,10 @@ Página de vendas
 :construction: Versão desktop :construction:
 
 :construction: Versão mobile :construction:
+
+# Processo de criação
+### React + TypeScipt
+ - A aplicação web foi criada utilizando o `create-react-app` com o template `typescript` para facilitar a componentização e tipagem;
+
+### Estilização com styled-components
+ - Projeto utilizando `styled-components` para facilitar a identificação dos arquivos de estilização;
