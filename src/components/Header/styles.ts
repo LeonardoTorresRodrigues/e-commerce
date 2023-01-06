@@ -30,4 +30,13 @@ export const Login = styled.button`
   border-radius: 20px;
   color: ${props => props.theme.colors.primary};
   cursor: pointer;
-  `
+`;
+
+export const Banner = styled.div`
+  width: 100vw;
+  height: 352px;
+  padding: 32px;
+  gap: 16px;
+
+  background: black;
+`
