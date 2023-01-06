@@ -20,3 +20,14 @@ export const Search = styled.input`
   padding: 8px 16px;
   gap: 8px;
 `;
+
+export const Login = styled.button`
+  width: 132px;
+  height: 51px;
+  padding: 16px;
+  gap: 10px;
+  border: 1px solid ${props => props.theme.colors.secondary};
+  border-radius: 20px;
+  color: ${props => props.theme.colors.primary};
+  cursor: pointer;
+  `

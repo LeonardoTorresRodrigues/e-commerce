@@ -2,8 +2,7 @@ import { shade } from 'polished';
 import { useContext } from 'react';
 import ReactSwitch from 'react-switch';
 import { ThemeContext } from 'styled-components';
-import Login from './Login';
-import { Container, Search } from './styles';
+import { Container, Search, Login } from './styles';
 
 interface Props {
   toggleTheme(): void;
@@ -18,7 +17,7 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
       <Search
         placeholder={'O que deseja procurar?'}
       />
-      <Login />
+      <Login>Login</Login>
       < ReactSwitch
         onChange={toggleTheme}
         checked={title === 'dark'}
