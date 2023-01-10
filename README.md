@@ -1,6 +1,6 @@
 # E-Commerce
 
-Página de vendas
+Plataforma de e-commerce 
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
