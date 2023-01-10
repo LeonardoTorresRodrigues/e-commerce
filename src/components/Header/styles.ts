@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import backGround from '../../assets/Hero.svg'; // Importando imagem da pasta assets
 
 export const Container = styled.div`
   height: 60px;
@@ -34,9 +35,13 @@ export const Login = styled.button`
 
 export const Banner = styled.div`
   width: 100vw;
-  height: 352px;
-  padding: 32px;
-  gap: 16px;
+  height: 22rem;
+  max-height: 22rem;
+  padding: 2rem;
+  gap: 1rem;
 
-  background: black;
-`
+  background: url(${backGround}); //passando imagem para background
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  `;
