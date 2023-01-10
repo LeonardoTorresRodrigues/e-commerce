@@ -2,7 +2,7 @@ import { shade } from 'polished';
 import { useContext } from 'react';
 import ReactSwitch from 'react-switch';
 import { ThemeContext } from 'styled-components';
-import { Container, Search, Login, Banner } from './styles';
+import { Container, Search, Login, Banner, BannerText } from './styles';
 
 interface Props {
   toggleTheme(): void;
@@ -31,7 +31,13 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
           onColor={colors.secondary}
         />
       </Container>
-      <Banner />
+      <Banner>
+        <BannerText>
+          <h1>Promoção</h1>
+          <p>Produtos selecionados com 33% de desconto</p>
+          <button>Ver Produtos</button> 
+        </BannerText>
+      </Banner>
     </>
   );
 };

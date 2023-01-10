@@ -45,3 +45,12 @@ export const Banner = styled.div`
   background-position: center;
   background-size: cover;
   `;
+
+export const BannerText = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color:#FFFFFF;
+  width:50%;
+  margin: 10rem 0;
+  `;
